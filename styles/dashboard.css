@@ -1,0 +1,35 @@
+#main {
+    display: flex;
+    justify-content: center;
+}
+
+#list {
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+#data {
+    padding: 10px;
+    text-align: center;
+    background-color: aliceblue;
+}
+
+button {
+    border: none;
+    width: 40%;
+    height: 30px;
+    color: white;
+    border-radius: 10px;
+}
+
+button:hover {
+    cursor: pointer;
+}

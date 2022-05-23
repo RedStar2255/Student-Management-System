@@ -1,0 +1,35 @@
+* {
+    font-family: 'PT Sans', sans-serif;
+}
+
+#navbar {
+    margin-left: 50px;
+    width: 95%;
+    height: 40px;
+    display: flex;
+    gap: 20px;
+    background-color: whitesmoke;
+    justify-content: space-between;
+}
+
+#navbar>div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#navbar>div>h3 {
+    color: black;
+}
+
+a {
+    text-decoration: none;
+}
+
+#a_tag {
+    gap: 20px;
+}
+
+#navbar>div:nth-child(2) {
+    gap: 20px
+}

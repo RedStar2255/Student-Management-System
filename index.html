@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Masai Admin Page</title>
+</head>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=PT+Sans:ital@1&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles/common.css">
+<link rel="stylesheet" href="styles/index.css">
+
+<body>
+    <div id="navbar">
+        <div id="a_tag">
+            <div>
+                <a href="index.html">
+                    <h4>Home</h4>
+                </a>
+            </div>
+            <div>
+                <a href="dashboard.html">
+                    <h4>Dashboard</h4>
+                </a>
+            </div>
+        </div>
+        <div id="datas">
+
+        </div>
+    </div>
+    <div id="main">
+        <form onsubmit="formSubmit(event)">
+            <div>
+                <h2>Masai School</h2>
+            </div>
+            <label for="image">Student Picture</label>
+            <input type="text" id="pic" placeholder="Paste your URL here">
+            <label for="name">Enter your Name</label>
+            <input type="text" id="name" placeholder="Enter your name">
+            <label for="course">Enter your Course</label>
+            <input type="text" id="course" placeholder="Enter your course">
+            <label for="batch">Enter your Batch</label>
+            <input type="text" id="batch" placeholder="Enter your Batch" list="batches">
+            <datalist id="batches">
+               <option >Batch 1</option>
+               <option >Batch 2</option>
+               <option >Batch 3</option>
+               <option >Batch 4</option>
+               <option >Batch 5</option>
+               <option >Batch 6</option>
+           </datalist>
+
+            <div><input type="submit" id="submit" value="SUBMIT"></div>
+        </form>
+    </div>
+</body>
+
+</html>
+<script src="scripts/index.js"></script>
